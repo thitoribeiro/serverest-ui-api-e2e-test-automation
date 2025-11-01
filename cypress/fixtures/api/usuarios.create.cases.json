@@ -1,0 +1,89 @@
+{
+  "CT001_duplicate": {
+    "nome": "Thito Ribeiro",
+    "email": "thito.ribeiro@hotmail.com",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT002_missingNome": {
+    "email": "sem.nome@uorak.com",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT003_missingEmail": {
+    "nome": "Usuario de testes 00002",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT004_missingPassword": {
+    "nome": "Usuario de testes 00003",
+    "email": "sem.password@uorak.com",
+    "administrador": "true"
+  },
+  "CT005_missingAdministrador": {
+    "nome": "Usuario de testes 00004",
+    "email": "sem.admin@uorak.com",
+    "password": "Teste@123"
+  },
+  "CT006_invalidAdm": {
+    "nome": "Usuario de testes 00005",
+    "email": "adm.invalid@uorak.com",
+    "password": "Teste@123",
+    "administrador": "maybe"
+  },
+  "CT007_emailNotString": {
+    "nome": "Usuario de testes 00006",
+    "email": 123456,
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT008_emailBadFormat": {
+    "nome": "Usuario de testes 00007",
+    "email": "inv@@lid",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT009_passwordEmpty": {
+    "nome": "Usuario de testes 00008",
+    "email": "pwd.vazio@uorak.com",
+    "password": "",
+    "administrador": "true"
+  },
+  "CT010_passwordBlank": {
+    "nome": "Usuario de testes 00009",
+    "email": "pwd.blank@uorak.com",
+    "password": "   ",
+    "administrador": "true"
+  },
+  "CT011_emptyObject": {},
+  "CT012_wrongCT": {
+    "nome": "Usuario de testes 00010",
+    "email": "wrong.ct@uorak.com",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT013_longName": {
+    "nome": "<LONG_260>",
+    "email": "long.name@uorak.com",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT014_shortPwd": {
+    "nome": "Usuario de testes 00011",
+    "email": "pwd.short@uorak.com",
+    "password": "Ab1",
+    "administrador": "true"
+  },
+  "CT015_validAdminTrue": {
+    "nome": "Usuario de testes 00012",
+    "email": "trocar@uorak.com",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "CT016_validAdminFalse": {
+    "nome": "Usuario de testes 00013",
+    "email": "trocar@uorak.com",
+    "password": "Teste@123",
+    "administrador": "false"
+  }
+}

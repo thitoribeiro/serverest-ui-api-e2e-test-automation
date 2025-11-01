@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Test Type",
+    "matchedStatuses": ["passed", "failed", "broken", "skipped"],
+    "messageRegex": ".*",
+    "traceRegex": ".*"
+  },
+  {
+    "name": "API Tests",
+    "matchedStatuses": ["passed", "failed", "broken"],
+    "messageRegex": ".*",
+    "traceRegex": ".*"
+  },
+  {
+    "name": "UI Tests",
+    "matchedStatuses": ["passed", "failed", "broken"],
+    "messageRegex": ".*",
+    "traceRegex": ".*"
+  }
+]

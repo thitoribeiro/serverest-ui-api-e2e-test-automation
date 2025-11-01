@@ -1,0 +1,74 @@
+{
+  "admin_user": {
+    "nome": "Administrador Teste",
+    "email": "admin.teste@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "regular_user": {
+    "nome": "Usuario Regular Teste",
+    "email": "usuario.regular@serverest.dev", 
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "update_user": {
+    "nome": "Usuario Para Atualizar",
+    "email": "usuario.update@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "delete_user": {
+    "nome": "Usuario Para Deletar",
+    "email": "usuario.delete@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "duplicate_name_user": {
+    "nome": "Nome Duplicado",
+    "email": "duplicado1@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "duplicate_name_user2": {
+    "nome": "Nome Duplicado",
+    "email": "duplicado2@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "true"
+  },
+  "special_chars_user": {
+    "nome": "Usuário com Acentuação & Símbolos",
+    "email": "especial@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "long_name_user": {
+    "nome": "Usuario com Nome Muito Longo para Testes de Limite e Validação de Campos",
+    "email": "nome.longo@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "filter_test_user": {
+    "nome": "Usuario Filtro Teste",
+    "email": "filtro.teste@serverest.dev",
+    "password": "SenhaFiltro123",
+    "administrador": "true"
+  },
+  "case_sensitive_user": {
+    "nome": "João da Silva QA",
+    "email": "joao.silva@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "substring_test_user": {
+    "nome": "Maria Joaquina Tester",
+    "email": "maria.joaquina@serverest.dev",
+    "password": "Teste@123",
+    "administrador": "false"
+  },
+  "combination_test_user": {
+    "nome": "Usuario Combinacao Teste",
+    "email": "combinacao.teste@serverest.dev",
+    "password": "Combinacao123",
+    "administrador": "true"
+  }
+}

@@ -137,3 +137,44 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/.nyc_output/
+cypress/coverage/
+
+# Allure Reports
+allure-results/
+allure-report/
+allure-report-api/
+allure-report-ui/
+reports/allure-results/
+reports/allure-report/
+
+# Arquivos de configuração temporários e backups
+*.copy.*
+* copy.*
+* copy
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
